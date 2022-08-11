@@ -1,0 +1,13 @@
+<sly data-sly-test="${!wcmmode.disabled}">
+    <p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+    <p data-sly-test="${properties.url}">url property: ${properties.url}</p>
+    <p data-sly-test="${properties.feedstodisplay}">feedstodisplay property: ${properties.feedstodisplay}</p>
+</sly>
+
+<sly data-sly-test="${wcmmode.preview || wcmmode.disabled}" data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries'
+    @ categories='wknd.rss-extractor'}">
+    ${clientlibs.JsAndCssIncludes @ context="unsafe"}
+</sly>
+<button id="rss-stop-refresh">Stop Refresh</button> <button id="rss-start-refresh">Start Refresh</button>
+<div id="output" data-url="${properties.url}" data-feeds-to-display="${properties.feedstodisplay}" data-refresh-rate="${properties.refreshrate}"></div>
+

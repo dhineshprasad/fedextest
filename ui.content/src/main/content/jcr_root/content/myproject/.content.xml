@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/landing-page-template,/conf/wknd/settings/wcm/templates/article-page-template,/conf/wknd/settings/wcm/templates/content-page-template,/conf/wknd/settings/wcm/templates/adventure-page-template]"
+        cq:conf="/conf/wknd"
+        cq:lastModified="{Date}2022-08-11T05:16:36.588+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-08-11T05:40:22.406+02:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:redirectTarget="/content/myproject/us/en"
+        cq:siteOwner="dhinesh"
+        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="myproject"
+        jcr:uuid="b78bb792-f19c-4682-b087-d8635adcf3dd"
+        sling:configRef="/conf/wknd"
+        sling:resourceType="wknd/components/page">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <global/>
+    <site/>
+</jcr:root>
