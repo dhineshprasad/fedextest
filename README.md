@@ -4,6 +4,9 @@
 
 For **AEM 6.5.x - Fedex Test**: 
 
+Ensure Java 11 is used 
+Apache Maven 3.8.5
+
 ```
 $ cd aem-guides-wknd/
 $ mvn clean install -PautoInstallSinglePackage -Pclassic
